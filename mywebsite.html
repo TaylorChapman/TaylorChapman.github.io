@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!--Front end styling! -->
+<link rel="stylesheet" href= "styleformyweb.css">
+
+  <head> <h1>My Take on Art</h1><h4>Taylor Chapman</h4></head>
+    <body><b>
+        <!--First paragraph about introduction of art-->
+        <div>Since the human race came to be, art has existed. It started as smears on cave walls and slowly evolved to where we are today.
+            <p>The diversity in art that we have in the world around us is astonishing. Nearly everything we interact with has art wrapped around its exterior. Architecture, clothing, design, advertisements and more fill our lives with creative content.</p>
+            I have a particular fascination with lines on paper. It  &#39;s amazing to me that something as simple as a flat surface and a marker can create movement, depth, and a resounding resemblance to the world around us. The ability of color to bring a flat surface volume never ceases to amaze me.
+            <p></div>
+
+        <div>
+
+      <img id="myImage" onclick="changeImage()" src="https://i.pinimg.com/236x/7c/ae/5d/7cae5d92517a8c2324d76e956be1e147.jpg" >
+      <h3> Click on the photo to view more art</h3>
+</div>
+      <script>
+
+      function changeImage() {
+
+          var image = document.getElementById("myImage");
+          if (image.src.match("https://i.pinimg.com/236x/69/21/46/69214666394194e8237fc03aa97a9fa6.jpg")) {
+              image.src = "https://www.artinfelton.co.uk/assets/images/gallery/Cave%20Artc.jpg";
+          } else {
+              image.src = "https://i.pinimg.com/236x/69/21/46/69214666394194e8237fc03aa97a9fa6.jpg";
+          }
+      }
+      </script>
+
+
+
+
+        <!--Second paragraph about language-->
+        <div><p>Language, and its diversity of use among the human race, is just as fascinating, I think. Why is it that the english language has hundreds of words that mean the same    thing? If we were logical, efficient creatures, we would have a single word to have a single meaning. Code- the simplification of thought. Why is it that such diversity exists? <p>
+
+        </div> The use of different words in our everyday lives- the diversity in the construction of sentences that mean the exact same thing- is evidence, I think, that we are all artists. The words we chose completely warp the world and thought around us, without even realizing it.</div>
+
+        <style>
+
+</b>
+    </body>
+
+
+</html>
