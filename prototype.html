@@ -1,0 +1,104 @@
+<head>
+  <link rel="stylesheet" href= "prototype.css">
+  <script src="prototype.js"></script>
+</head>
+
+
+
+<body>
+
+  <!--Menu bar -->
+  <div class= "titlemenue">
+    <a id = "first" class="menu" href= "file:///C:/Users/GWC/Desktop/Final-Project-GWC/donate.html" >Donate</a>
+    <a id = "second" class= "menu" href= "file:///C:/Users/GWC/Desktop/Final-Project-GWC/contact.html" >Contact Us</a>
+    <a id = "third" class= "menu" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/about.html">About</a>
+    <a id= "fourth" class="menu" href= "file:///C:/Users/GWC/Desktop/Final-Project-GWC/faq.html">FAQ</a>
+    <a id = "fifth" class= "menu" href= "file:///C:/Users/GWC/Desktop/Final-Project-GWC/socialmedia.html" >Social Media</a>
+  </div>
+
+<!-- Title with background images-->
+  <div class= "title">
+    <h1 id="Title">Ripple</h1>
+    <img id="logo" src="file:///C:/Users/GWC/Desktop/Final-Project-GWC/1250abd9224aecca0fd228ed21881e2b.png">
+    <p id= "slogan">small choices start change</p>
+  </div>
+
+<!-- Introduction Paragraph -->
+<div class= "body">
+
+    <h2 class="labels">Water? Meet droplet. </h2>
+      <div class= "instructions">
+<p id= "instructions">With the acceleration of communications and the growing availability of knowledge, the hardest part of making a change is starting. Ripple allows anyone and everyone to initiate change that ripples outwards to bring our users and the causes they care about towards a brighter future. </p>
+
+<p id= "instructions">How does it work, you may ask? First, choose a cause that you care about. Then, pick a topic where you’d like your knowledge to grow. With every question that you answer correctly, the cause you care about receives a “vote” towards receiving 100% of the money donated to Ripple this month. The more you learn, and the better you get at answering questions correctly, the closer you come to recieving funding for the causes you care about. </p>
+
+<p id= "instructions">Alright! If you have any questions, suggestions for more organizations we should include on our site, or topics you’d like to learn about, please contact us. Donations are always welcome, as well. Happy learning!</p>
+
+<p id= "instructions">-the Ripple team</p>
+ </p>
+  </div>
+<h2 class= "labels">Step 1: Pick a Cause </h2>
+<script>
+  var s = 1;
+  function cHange(){
+  //  localStorage.getItem("counthunger") = counthunger;
+    document.getElementById("counthunger").innerHTML = s++;
+  }
+
+</script>
+
+<!-- Causes -->
+<button onclick= "cHange()" class = "test"></button>
+<div class= "causes">
+
+    <div class = "cause" id= "hunger">
+      <a id = "causename" onclick = "setvarhunger()" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">World Hunger</a>
+      <p id="score">Count: <text id="counthunger">0</text></p>
+    </div>
+
+    <div class = "cause" id= "elephants">
+      <a id = "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Save the Elephants</a>
+      <p id="score">Count: <text id="countelephants">0</text></p>
+    </div>
+
+
+    <div class= "cause" id= "deforestation">
+      <a id= "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Save the Rainforest</a>
+      <p id="score">Count: <text id="countdeforest">0</text></p>
+
+  </div>
+  <div class = "cause" id= "children">
+    <a id = "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Help Children</a>
+     <p id="score">Count: <text id="countchildren">0</text></p>
+  </div>
+</div>
+
+<div class= "causes">
+
+  <div class = "cause" id= "marinelife">
+      <a id = "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Marine Life</a>
+      <p id="score">Count: <text id="countmarine">0</text></p>
+  </div>
+
+  <div class = "cause" id= "breastcancer">
+      <a id = "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Breast Cancer Research</a>
+      <p id="score">Count: <text id="countbreast">0</text></p>
+  </div>
+
+
+  <div class= "cause" id= "doctors">
+      <a id= "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Doctors without Borders</a>
+      <p id="score">Count: <text id="countdoctors">0</text></p>
+  </div>
+
+  <div class = "cause" id= "girls">
+    <a id = "causename" href="file:///C:/Users/GWC/Desktop/Final-Project-GWC/options.html">Support Girls</a>
+    <p id="score">Count: <text id="countgirls">0</text></p>
+  </div>
+
+
+
+</div>
+
+<footer></footer>
+</body>

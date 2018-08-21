@@ -1,0 +1,219 @@
+/* Overall info */
+body{
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 100%, auto;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color:	#e0fbff;
+  color: #233966;
+  }
+
+#countbar{
+  background-color:blue;
+  height: 10px;
+  width: var(counthunger);
+}
+
+p{
+  font-size: 20px;
+}
+
+.labels{
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 0;
+    color: #212b4f;
+  font-size: 30px;
+}
+#label{
+  color: transparent;
+}
+.instructions{
+  font-size: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+/* Title */
+#Title{
+  font-size: 70px;
+color: #233966;
+  position: relative;
+  font-family: "Lucida Sans Unicode";
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#logo{
+  height: 150px;
+  width: 150px;
+  vertical-align: center;
+  display: inline-block;}
+
+#slogan {
+  margin: 0;
+  padding-left: 24px;
+    font-family: "Lucida Sans Unicode";
+      color: #212b4f;
+}
+
+
+.title{
+  position: relative;
+  height: 250px;
+  align: center;
+  left: 37%;
+  margin-top: 170px;
+  align-items: flex-start;
+  margin-bottom: 200px;
+}
+
+
+/* Menu Bar */
+#first{
+
+  left: 0;}
+
+#second{
+
+  left: 20%;
+}
+#third{
+
+  left: 40%;
+}
+#fourth{
+  left: 60%;
+}
+
+#fifth{
+
+  left: 80%;
+}
+.menu{
+  background-color: transparent;
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+  font-family: georgia;
+  border-color: transparent;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+.titlemenue {
+  background-color:white;
+  border: 10px, solid grey;
+  position: relative;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/*Causes  slideshow */
+  .body{ /* of any text on pages*/
+    position:relative;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;}
+
+  .cause{/*each individual one*/
+    position:relative;
+    font-size: 20px;
+    color: #212b4f;
+    height: 250px;
+    width: 250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 150px;
+    margin-top: 20px;}
+
+    .causes{
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+      margin-top: 60px;
+            padding-bottom: 20px;
+    }
+
+#score {
+    color: black;
+    margin-top: 93%;
+  }
+
+  /*Causesss*/
+  #backcause{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+  }
+    #hunger{
+      background-image: url("https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1028x675/format/jpg/quality/85/http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F4a22362d7ae271dee4ba6a3b6354b2e8%2F202862557%2F492703086.jpg");
+      display: inline-block;
+    }
+
+    #deforestation{
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLt7NS-W29klWwhVXzIrhWYP1lhh6AGV7yYLNpdbgqeKyvS5BcoA");
+            display: inline-block;
+    }
+
+    #elephants{
+      background-image: url("http://savetheelephants.org/wp-content/uploads/2015/05/ste-ecf-logo1.jpg");
+      display: inline-block;
+    }
+
+    #children{
+      background-image: url("http://wrkshp.org/wp-content/uploads/2012/09/P1110121.jpg");
+      display: inline-block;
+    }
+
+    #doctors{
+      background-image: url("http://sites.psu.edu/mikewhiteblog/wp-content/uploads/sites/507/2012/10/doctors_without_borders.jpg");
+    }
+
+    #marinelife{
+        background-image: url("https://images.financialexpress.com/2018/06/marine-noise.jpg");
+    }
+
+    #girls{
+        background-image: url("https://girlsinc-alameda.org/app/uploads/2017/06/header-home@2x-560x560-c-default.jpg");
+    }
+
+    #breastcancer{
+        background-image: url("http://wnor-fm.sagacom.com/wp-content/blogs.dir/2/files/2015/06/greeting-cy15-slideshow3.jpg");
+    }
+
+    #causename{
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      position: relative;
+      top:100;
+    }
+
+
+    /*choices for lessons*/
+    .topics{
+      margin-left: 20px;
+    }
+    .choices{
+      text-decoration: none;
+      color: blue;
+      font-size: 18;
+      margin-left: 50px;
+      display: inline-block;
+    }
+
+
+.form{
+ margin: 40px;
+ margin-top: 0;
+
+}
