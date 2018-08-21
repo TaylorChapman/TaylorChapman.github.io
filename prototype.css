@@ -190,6 +190,13 @@ color: #233966;
         background-image: url("http://wnor-fm.sagacom.com/wp-content/blogs.dir/2/files/2015/06/greeting-cy15-slideshow3.jpg");
     }
 
+#taylor{
+  background-image: url("taylor.jpg");
+}
+
+#mandy{
+  background-image: url();
+}
     #causename{
       color: white;
       text-decoration: none;
