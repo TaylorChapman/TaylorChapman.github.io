@@ -30,6 +30,8 @@ function getCookie(cname) {
 
 function setvarhunger(){
   document.cookie = "causename=hunger";
+  var x = document.Cookie;
+  console.log(x);
 }
 
 function setvarelephants(){
