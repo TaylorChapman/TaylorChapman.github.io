@@ -41,7 +41,7 @@ function setvarhunger(){
 }
 
 function setvarelephants(){
-  setCookie(causename, elephants)
+  setCookie('causename', 'elephants')
   document.cookie = "causename=elephants";
 }
 
