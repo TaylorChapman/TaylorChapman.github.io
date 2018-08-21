@@ -30,18 +30,31 @@ function getCookie(cname) {
 
 function setvarhunger(){
   document.cookie = "causename=hunger";
-  var x = document.Cookie;
-  console.log(x);
 }
 
 function setvarelephants(){
-  document.cookie = "causename = 'elephants'";
+  document.cookie = "causename=elephants";
 }
 
 function setvarbreastcancer(){
-  document.cookie = "causename = 'breastcancer'"
+  document.cookie = "causename=breastcancer";
 }
 
 function setvardeforest(){
-  document.cookie = "causename = 'deforest'"
+  document.cookie = "causename=deforest";
 }
+
+function setvarchildren(){
+  document.cookie = "causename=children";
+}
+
+function setvarmarine(){
+  document.cookie = "causename=marinelife";
+}
+
+function setvardoctors(){
+  document.cookie = "causename=doctors"
+}
+
+function setvargirls(){
+  documen.cookie = "causename=girls"
